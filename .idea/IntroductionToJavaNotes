@@ -20,3 +20,9 @@ Java is Platform Independent:
 - Jvm is platform specific application, i.e for every OS we have its own Jvm. This makes it easier for
 jvm to convert the complied java program to the machine code of any OS.
 
+Let's take an example of a java program Calculator.java
+Calculator is a source file, after compilaton it is converted to class file Calculator.class (this is the byte code). This process is called the complilation
+Calculator.class is then interepreted by the JVM and translated to the specific machine code.
+javac Calculator.java: is for comilation.
+java Calculator: is for interpreting the class file to output.
+java Calculator.java: is used to directly interpret, but it is time consuming.
