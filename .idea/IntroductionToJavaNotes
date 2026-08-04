@@ -1,0 +1,22 @@
+Introduction to Java:
+- It was inspired by C/C++ and similar languages
+- It was originally designed for consumer electronics
+- It was designed to write once run anywhere (wora)
+- Widely adopted accross billions of devices, ranging from smartcards to supercomputer.
+
+How is a Program code produced?
+- Human writes code in human readable form (also known as source code)
+- It is then converted to machine code(0s and 1s) also known as binary code.
+- There are two ways to Achieve this:
+1. Compiled: Entire code is translated to machine code in one go in advance
+2. Interpreted: Individual instructions translated everytime progaram runs
+
+Producing Machine code:
+- Different operating systems (like Linux, Windows, Macos) have different machine codes for same program.
+
+Java is Platform Independent:
+- Java can compile the program into byte code of no specific platform in the Java Virtual Machine (JVM)
+- Jvm then converts the byte code to machine code in which ever platform it is (linux, windows, mac)
+- Jvm is platform specific application, i.e for every OS we have its own Jvm. This makes it easier for
+jvm to convert the complied java program to the machine code of any OS.
+
