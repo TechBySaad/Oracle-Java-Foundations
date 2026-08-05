@@ -1,0 +1,62 @@
+Java keywords, reserved and literals:
+- All are lowercase
+- Cannot be used as Identifiers(user defined words)
+
+For example:
+- Control program flow: if, else, continue, break, for, do, while, switch, case, default.
+- Describe Code Structure: private, public, import, package, class, static, final, return, void.
+- Define types: byte, int, double, boolean, var.
+- Literal values: true, false, null.
+- Work with objects: new, this, super.
+- Handle exception: try, catch.
+
+Java identifiers
+- Any custom name given to the variables, methods or class by the programmer are called identifiers.
+
+Java Syntax
+- Java code is grouped into classes
+- A class is the main unit of code in java
+- Classes contain variables and methods that fulfill their purpose
+- Code blocks are delimited by {} flower brackets
+- Statements are terminated with ; semi collen.
+
+Comments
+- Comments are used to provide additional information in the program
+- Comments explain why that code was written and what is the logic behind it.
+- We write comments inside the source code and the compiler ignores it.
+// This is the single line comment
+/*
+This is
+multi line comment
+*/
+
+The main method:
+public static void main(String[] args) {
+// Code (variables and methods)
+}
+- This is the entry point of the Java program or the Java application.
+- JVM starts the program from this method
+
+public: public is an access modifier.
+        It makes the main() method accessible from anywhere.
+        The JVM needs to access this method to start the program, so it must be public.
+
+static: static means the method belongs to the class, not to an object.
+        Because of this, the JVM can call main() without creating an object of the class.
+
+void: void is the return type.
+      It indicates that the main() method does not return any value.
+
+main: main is the name of the method.
+      It is the standard method name that the JVM looks for as the entry point of a Java application.
+
+String[]: String[] is the parameter type.
+          It represents an array of String objects.
+          This array stores the command-line arguments passed to the program when it is executed.
+
+args: args is simply the parameter name.
+      It stands for "arguments," but you can use any valid identifier, such as input, data, myArgs or even your name, try it.
+      By convention, most Java programmers use args.
+
+Overall: public static void main(String[] args) is the entry point of a Java application.
+         When you run a Java program, the JVM begins execution by calling this method.
