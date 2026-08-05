@@ -60,3 +60,25 @@ args: args is simply the parameter name.
 
 Overall: public static void main(String[] args) is the entry point of a Java application.
          When you run a Java program, the JVM begins execution by calling this method.
+
+Standard I/O
+- Standard input and output is used to take input from the user or show an output to the console.
+- Class System allows us to do it in 3 ways
+System.in: used to take the user input
+System.out: used to print a text to the console
+System.err: used to pring an error message
+example:
+System.out.println("Hello World"); // method println prints the line of text passed inside it.
+
+Providing parameters to the main method
+-
+class Test {
+ public static void main(String[] args) {
+System.out.println("Hello " + args[0]);
+}
+}
+Let'c compile and run:
+javac Test.java
+java Test "Mohammed Saad" (If we write Mohammed Saad without " ", then Mohammed will be considered as args[0], and Saad will be considered as args[1]
+for example: java Test Mohammed Saad will give: Hello Mohammed, because Mohammed is passed onto args[0] and Saad is args[1]
+output: Hello Mohammed Saad
