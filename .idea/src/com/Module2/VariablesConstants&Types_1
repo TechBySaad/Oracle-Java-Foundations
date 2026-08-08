@@ -33,3 +33,9 @@ Java rules for identifiers
 - cannot use keywords of reserved words, like int boolean, int String etc.
 - cannot use special characters except $ and _, int @to is not alowed but int $ghost is allowed.
 - java is case sensitive, some is not same as Some. both are different.
+
+Java inferring variable type:
+var, is basically used when we don't want to declare a specific data type and want the compiler to guess it.
+var age = 22; // compiler reads it as int based on how we have declared the data
+var weight = 76.52 // compiler reads it as double based on the floating point.
+
